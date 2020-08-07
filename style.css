@@ -1,0 +1,144 @@
+*{ margin: 0; padding: 0; box-sizing:  border-box; font-family: 'Roboto Condensed', sans-serif; }
+
+body{
+	width: 100%;
+	height: 100vh;
+	background-color: #08AEEA;
+background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+position: relative;
+}
+header{
+	width: 100%;
+	height: 100vh;
+
+
+}
+header:before{
+	content: "";
+	width: 520px;
+	height: 550px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background-image: url('images/2b8453d9c9f6e1e1c35dcb523e516478.png');
+	background-size:100% 100%;
+}
+nav{
+	width: 100%;
+	height: 15vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.logo a{
+	color: white;
+	text-decoration: none;
+	font-size: 2rem;
+	text-transform: uppercase;
+	font-weight: bold;
+	top: -10%;
+
+}
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 0 15px;
+
+}
+.menu ul li a {
+	text-decoration: none;
+	color: white;
+	text-transform:capitalize;
+}
+.active, ul li:hover{
+	border-top: 2px solid #5dade2;
+	border-bottom: 2px solid #5dade2;
+}
+.contact_btn a hover{
+	background:linear-gradient(to bottom, #615cfd 0%,#d465ef 100%);
+}
+/*///////center-content///////*/
+.center_content{
+     position: absolute;
+	top: 50%;
+	left: 75%;
+ transform: translate(-50%, -50%);
+}
+.center_content h1{
+	color: #fff;
+	font-size: 70px;
+	text-transform: capitalize;
+	font-weight: 700px;
+	margin-bottom: 10px;
+	/*z-index: 1;*/ 
+}
+.center_content h2{
+	color: #fff;
+	font-size: 25px;
+	text-transform: capitalize;
+	font-weight: 400px;
+	margin-bottom: 10px;
+	/*z-index: 1;*/ 
+}
+.center_content h2:before{
+	content: "";
+	width: 80px;
+	height: auto;
+	border:2px solid #fff;
+	position: absolute;
+	left: 40px;
+	bottom: 0;
+	margin-bottom: 10px;
+}
+/*//////font aweosm style//////*/
+.Social_Network{
+	width: 100px;
+	height: auto;
+	position: absolute;
+	right: 0;
+	top: 40%;
+}
+.fa_icons{
+	width: 40px;
+	height: 40px;
+	border-radius: : 50%;
+	background:linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.fa_icons:nth-child(even){
+	margin: 20px 0;
+}
+.fa_icons:hover{
+	background:  linear-gradient(0deg,#2AF598 0%, #08AEEA 100%);
+}
+.grid_sec{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	left: 55%;
+bottom: 0;
+overflow: hidden;
+}
+ h1{
+	color: #fff;
+	font-size: 70px;
+	text-transform: capitalize;
+	font-weight: 700px;
+	margin-bottom: 10px;
+
+	/*z-index: 1;*/ 
+}
+ h2{
+	color: #fff;
+	font-size: 50px;
+	text-transform: capitalize;
+	font-weight: 400px;
+	margin-bottom: 10px;
+	/*z-index: 1;*/ position: absolute;
+	top: 50%;
+	left:50%;
+ transform: translate(-50%, -50%);
+}
+
